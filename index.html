@@ -1,125 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Yash Grade | Portfolio</title>
-    <link rel="stylesheet" href="styles.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Grade - IT Student & Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <button class="theme-toggle" id="themeToggle">
-                <i class="fas fa-moon"></i>
-            </button>
-            <h1>Yash Grade</h1>
-            <p class="tagline">Creative Problem Solver</p>
-            <p class="location">New Delhi, India</p>
-        </header>
+    <!-- Mobile Menu Toggle -->
+    <div class="mobile-menu-toggle" id="mobileMenuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <p>I'm a 2nd-year B.Tech student, wrapping up my semester this June. I'm passionate about web development and love creating clean, functional websites. In my free time, you'll find me watching anime or sharpening my problem-solving skills with DSA challenges. I'm currently looking for internship opportunities to grow as a developer and contribute to real-world projects.</p>
-            </div>
-        </section>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">Yash Grade</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#workshops">Workshops</a></li>
+                <li><a href="#hackathons">Hackathons</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <section id="education">
-            <h2>Education</h2>
-            <div class="education-item">
-                <h3>Maharaja Surajmal Institute of Technology</h3>
-                <div class="education-meta">
-                    <span>B.Tech in Information Technology</span>
-                    <span>2023 - 2027 (Expected)</span>
-                </div>
-                <p><span class="grade">CGPA: 9.0</span></p>
-                <ul class="skill-list">
-                    <li>Member of ISTE & IEEE societies</li>
-                    <li>Participated in Adobe Designathon (IIT Delhi Tryst'25)</li>
-                </ul>
-            </div>
-            <div class="education-item">
-                <h3>Rao Man Singh Senior Secondary Public School</h3>
-                <div class="education-meta">
-                    <span>Class XII (CBSE)</span>
-                    <span>2022 - 2023</span>
-                </div>
-                <p><span class="grade">Percentage: 93%</span></p>
-            </div>
-            <div class="education-item">
-                <h3>Krishna Model Senior Secondary Public School</h3>
-                <div class="education-meta">
-                    <span>Class X (CBSE)</span>
-                    <span>2020 - 2021</span>
-                </div>
-                <p><span class="grade">Percentage: 88%</span></p>
-            </div>
-        </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>Languages & Technologies</h3>
-                    <ul class="skill-list">
-                        <li>HTML, CSS, JavaScript</li>
-                        <li>Python, C/C++</li>
-                        <li>Java, MySQL</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Tools & Platforms</h3>
-                    <ul class="skill-list">
-                        <li>VS Code, IntelliJ IDEA</li>
-                        <li>Git & GitHub</li>
-                        <li>Figma, IDLE</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Other Strengths</h3>
-                    <ul class="skill-list">
-                        <li>Leadership & Teamwork</li>
-                        <li>Fast Learner</li>
-                        <li>Graphic Design</li>
-                        <li>Object-Oriented Programming</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="education-item">
-                <h3>Portfolio Website</h3>
-                <p>
-                    Designed and developed a personal portfolio using HTML, CSS, and JavaScript. Showcases education, skills, and contact details. Features theme switching, smooth scrolling, and responsive design. <br/>
-                    <a href="https://github.com/Yash-Grade/Portfolio" target="_blank">View on GitHub</a>
-                </p>
-            </div>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <div class="contact-links">
-                <a href="mailto:yashrairajput@gmail.com" class="contact-link">
-                    <i class="fas fa-envelope"></i> Email
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>YASH GRADE</h1>
+            <p>IT Student & Aspiring Developer</p>
+            <div class="contact-info">
+                <a href="tel:+917827047824" class="contact-item">
+                    <i class="fas fa-phone"></i> +91 7827047824
                 </a>
-                <a href="https://www.linkedin.com/in/yash-grade-5269212a2/" class="contact-link" target="_blank">
+                <a href="mailto:yashrairajput@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i> yashrairajput@gmail.com
+                </a>
+                <a href="https://linkedin.com/in/yash-grade-5269212a2" target="_blank" class="contact-item">
                     <i class="fab fa-linkedin"></i> LinkedIn
                 </a>
-                <a href="https://github.com/Yash-Grade/Portfolio" class="contact-link" target="_blank">
+                <a href="https://github.com/yash-grade" target="_blank" class="contact-item">
                     <i class="fab fa-github"></i> GitHub
                 </a>
             </div>
-        </section>
-    </div>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
 
-    <div class="back-to-top" id="backToTop">
+    <!-- Education -->
+    <section id="education" class="container">
+        <h2 class="section-title animate-on-scroll">Education</h2>
+        <div class="education-card animate-on-scroll">
+            <div class="education-icon">
+                <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Maharaja Surajmal Institute of Technology</h3>
+            <div class="degree">Bachelor of Technology in Information Technology</div>
+            <p>2023 - 2027 | New Delhi, India</p>
+            <div class="cgpa">CGPA: 9.0</div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="container">
+        <h2 class="section-title animate-on-scroll">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category animate-on-scroll">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Programming Languages</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">C/C++</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">MySQL</span>
+                </div>
+            </div>
+            <div class="skill-category animate-on-scroll">
+                <div class="skill-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>Development Tools</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">GitHub</span>
+                </div>
+            </div>
+            <div class="skill-category animate-on-scroll">
+                <div class="skill-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Software</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">IntelliJ IDEA</span>
+                    <span class="skill-tag">IDLE</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Canva</span>
+                    <span class="skill-tag">Excel</span>
+                </div>
+            </div>
+            <div class="skill-category animate-on-scroll">
+                <div class="skill-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3>Soft Skills</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">Leadership</span>
+                    <span class="skill-tag">Fast Learner</span>
+                    <span class="skill-tag">Adaptive</span>
+                    <span class="skill-tag">Teamwork</span>
+                    <span class="skill-tag">Graphic Design</span>
+                    <span class="skill-tag">OOP</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container">
+        <h2 class="section-title animate-on-scroll">Projects</h2>
+        <div class="project-card animate-on-scroll">
+            <div class="project-header">
+                <h3><a href="https://github.com/yash-grade/portfolio" target="_blank">Personal Portfolio Website</a></h3>
+                <div class="tech-stack">HTML, CSS, JavaScript</div>
+            </div>
+            <ul class="project-features">
+                <li>Designed and developed a responsive personal portfolio site to showcase skills, projects, and certifications.</li>
+                <li>Implemented smooth navigation, contact form functionality, and animations for an enhanced user experience.</li>
+                <li>Ensured responsiveness and cross-device compatibility; deployed via GitHub Pages.</li>
+            </ul>
+            <div class="project-links">
+                <a href="https://github.com/yash-grade/portfolio" target="_blank" class="project-link">
+                    <i class="fab fa-github"></i> View Code
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="container">
+        <h2 class="section-title animate-on-scroll">Certifications & Virtual Experiences</h2>
+        <div class="cert-grid">
+            <div class="cert-item animate-on-scroll">
+                <div class="cert-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h4>Oracle Data Platform Foundations Associate</h4>
+                <p>Oracle University (Sep 2025)</p>
+                <p>Learned data management fundamentals, cloud data services, and practical platform operations.</p>
+                <a href="https://drive.google.com/file/d/1Lm4UMkTOpJtXFsjh7CbipiKiTnk5PcVI/view" target="_blank">View Certificate</a>
+            </div>
+            <div class="cert-item animate-on-scroll">
+                <div class="cert-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <h4>Oracle OCI AI Foundations Associate</h4>
+                <p>Oracle University (Aug 2025)</p>
+                <p>Gained understanding of AI concepts, Oracle AI cloud services, and integrating AI solutions in business scenarios.</p>
+                <a href="https://drive.google.com/file/d/1RDA6sfEqtwf6Zr9YO6RuhvC5ULMsMLUb/view" target="_blank">View Certificate</a>
+            </div>
+            <div class="cert-item animate-on-scroll">
+                <div class="cert-icon">
+                    <i class="fas fa-cloud"></i>
+                </div>
+                <h4>Oracle OCI Foundations Associate</h4>
+                <p>Oracle University (Aug 2025)</p>
+                <p>Covered core cloud concepts, Oracle Cloud Infrastructure basics, and practical skills in provisioning and managing cloud resources.</p>
+                <a href="https://drive.google.com/file/d/1rjKtytHP5GlBHaWqqXxs1kJz_E9FZFlT/view" target="_blank">View Certificate</a>
+            </div>
+            <div class="cert-item animate-on-scroll">
+                <div class="cert-icon">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+                <h4>Oracle OCI Multicloud Architect Professional</h4>
+                <p>Oracle University (Sep 2025)</p>
+                <p>Learned advanced multi-cloud architecture design, deployment, and management strategies on Oracle Cloud.</p>
+                <a href="https://drive.google.com/file/d/1BEtm-fwrlJ1MPHx6qOIwY5_TCSZP2JRd/view" target="_blank">View Certificate</a>
+            </div>
+            <div class="cert-item animate-on-scroll">
+                <div class="cert-icon">
+                    <i class="fab fa-aws"></i>
+                </div>
+                <h4>AWS Solutions Architecture Job Simulation</h4>
+                <p>via Forage (Aug 2025)</p>
+                <p>Completed practical tasks in designing simple, scalable hosting architecture.</p>
+                <a href="https://drive.google.com/file/d/1zrDiOAjI2JBuXK6mGTTGjJWTjfAAqgF3/view" target="_blank">View Certificate</a>
+            </div>
+            <div class="cert-item animate-on-scroll">
+                <div class="cert-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h4>JPMorgan Quantitative Research Job Simulation</h4>
+                <p>via Forage (Aug 2025)</p>
+                <p>Completed tasks in price data investigation, credit risk analysis, and FICO score bucketing.</p>
+                <a href="https://drive.google.com/file/d/1zrDiOAjI2JBuXK6mGTTGjJWTjfAAqgF3/view" target="_blank">View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workshops -->
+    <section id="workshops" class="container">
+        <h2 class="section-title animate-on-scroll">Workshops & Training</h2>
+        <div class="workshop-grid">
+            <div class="workshop-item animate-on-scroll">
+                <div class="workshop-icon">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <h4>Data Analytics Industrial Visit</h4>
+                <p>1 day at MSIT, Delhi by DUCAT (Oct 2024)</p>
+                <p>Gained exposure to data cleaning, visualization, and analytics workflows.</p>
+                <a href="https://drive.google.com/file/d/1pmsXborS5JcUIsHALNedOxFJjPhzuqSi/view" target="_blank">View Certificate</a>
+            </div>
+            <div class="workshop-item animate-on-scroll">
+                <div class="workshop-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h4>Generative AI Workshop</h4>
+                <p>1 day hands-on workshop at MSIT, Delhi by DUCAT (Feb 2025)</p>
+                <p>Explored prompt engineering, AI model capabilities, and practical applications of generative models.</p>
+                <a href="https://drive.google.com/file/d/1ptNDhEMm1mM3BnTffQHep9s9h98zvYAU/view" target="_blank">View Certificate</a>
+            </div>
+            <div class="workshop-item animate-on-scroll">
+                <div class="workshop-icon">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <h4>IoT Workshop</h4>
+                <p>1 day workshop at MSIT, Delhi by DUCAT (Apr 2025)</p>
+                <p>Learned fundamentals of Internet of Things, hardware-software integration, and real-time data applications.</p>
+                <a href="https://drive.google.com/file/d/1pmR7vKdowvpl-eokGbECQ-MSAiZOJx1e/view" target="_blank">View Certificate</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hackathons -->
+    <section id="hackathons" class="container">
+        <h2 class="section-title animate-on-scroll">Hackathons & Competitions</h2>
+        <div class="hackathon-item animate-on-scroll">
+            <div class="hackathon-icon">
+                <i class="fas fa-palette"></i>
+            </div>
+            <h3>Adobe Designathon - IIT Delhi Tryst25</h3>
+            <p>IIT Delhi (Mar 2025)</p>
+            <p>Collaborated in a team to design innovative UI/UX solutions under time constraints.</p>
+            <a href="https://drive.google.com/file/d/1BEtm-fwrlJ1MPHx6qOIwY5_TCSZP2JRd/view" target="_blank" class="hackathon-link">
+                View Certificate
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container">
+        <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info-section animate-on-scroll">
+                <h3>Let's Connect!</h3>
+                <p>I'm always open to discussing new opportunities, collaborations, and innovative projects.</p>
+                <div class="contact-details">
+                    <div class="contact-detail">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>New Delhi, India</span>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9311804403</span>
+                    </div>
+                    <div class="contact-detail">
+                        <i class="fas fa-envelope"></i>
+                        <span>yashrairajput@gmail.com</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/yash-grade-5269212a2" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/yash-grade" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <form class="contact-form animate-on-scroll" id="contactForm">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Yash Grade. All rights reserved.</p>
+            <p>Built with passion and dedication ❤️</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
         <i class="fas fa-arrow-up"></i>
-    </div>
+    </button>
 
     <script src="script.js"></script>
 </body>
 </html>
-

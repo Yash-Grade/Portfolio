@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yash Grade — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursor-dot"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">YG</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#projects" class="mob-link">Projects</a></li>
+      <li><a href="#experience" class="mob-link">Experience</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="hero-tag reveal">B.Tech IT — MSIT Delhi</div>
+      <h1 class="hero-name reveal">
+        <span class="line">Yash</span>
+        <span class="line accent-line">Grade</span>
+      </h1>
+      <p class="hero-role reveal">Full-Stack Developer &amp; AI Integrator</p>
+      <p class="hero-desc reveal">Building intelligent web applications at the intersection of modern frontend, scalable backends, and AI-powered experiences.</p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="mailto:yashrairajput@gmail.com" class="btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat"><span class="stat-num">9.14</span><span class="stat-label">CGPA</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Certifications</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Projects</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label">01 — About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Who I Am</h2>
+          <p>I'm a second-year B.Tech Information Technology student at Maharaja Surajmal Institute of Technology, New Delhi, with a CGPA of 9.14. I'm passionate about crafting end-to-end web solutions that are fast, accessible, and intelligent.</p>
+          <p>My work spans from full-stack SaaS applications to IoT research internships. I love solving real-world problems through code — whether it's automating dental workflows with AI voice agents or visualizing smart city data.</p>
+          <div class="about-links">
+            <a href="https://linkedin.com" target="_blank" class="social-chip">LinkedIn ↗</a>
+            <a href="https://github.com" target="_blank" class="social-chip">GitHub ↗</a>
+            <a href="#" class="social-chip">Portfolio ↗</a>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-inner">
+            <div class="about-card-header">
+              <div class="about-avatar">YG</div>
+              <div>
+                <div class="about-name">Yash Grade</div>
+                <div class="about-college">MSIT — B.Tech IT</div>
+              </div>
+            </div>
+            <div class="about-detail-row"><span class="detail-icon">📍</span> New Delhi, India</div>
+            <div class="about-detail-row"><span class="detail-icon">📧</span> yashrairajput@gmail.com</div>
+            <div class="about-detail-row"><span class="detail-icon">📞</span> +91 78270 47824</div>
+            <div class="about-detail-row"><span class="detail-icon">🎓</span> 2023 – 2027 Batch</div>
+            <div class="status-badge">
+              <span class="status-dot"></span> Open to Internships
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label">02 — Skills</div>
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="skills-grid">
+        <div class="skill-group" data-category="Languages">
+          <div class="skill-group-header">
+            <span class="skill-icon">⌨</span>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">C</span>
+            <span class="tag">C++</span>
+            <span class="tag">Python</span>
+            <span class="tag">Java</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-group" data-category="Web">
+          <div class="skill-group-header">
+            <span class="skill-icon">🌐</span>
+            <h3>Web Development</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag tag-accent">React.js</span>
+            <span class="tag tag-accent">Next.js</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-group" data-category="DB & Cloud">
+          <div class="skill-group-header">
+            <span class="skill-icon">☁</span>
+            <h3>Databases &amp; Cloud</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag tag-accent">PostgreSQL</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">Prisma ORM</span>
+            <span class="tag">Vercel</span>
+            <span class="tag">AWS</span>
+          </div>
+        </div>
+        <div class="skill-group" data-category="Tools">
+          <div class="skill-group-header">
+            <span class="skill-icon">🛠</span>
+            <h3>Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Figma</span>
+            <span class="tag">Canva</span>
+            <span class="tag">Excel</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label">03 — Projects</div>
+      <h2 class="section-title">Featured Work</h2>
+      <div class="projects-grid">
+
+        <div class="project-card project-card--featured">
+          <div class="project-number">01</div>
+          <div class="project-top">
+            <h3 class="project-title">Dentwise</h3>
+            <span class="project-badge">AI SaaS</span>
+          </div>
+          <p class="project-tagline">AI Voice Dental Assistant</p>
+          <p class="project-desc">A full-stack AI-powered SaaS platform with voice-based interaction and appointment scheduling. Integrated an AI voice agent to automate patient communication and deliver care recommendations with secure authentication and real-time database management.</p>
+          <div class="project-tech">
+            <span>Next.js</span>
+            <span>TypeScript</span>
+            <span>PostgreSQL</span>
+            <span>Prisma</span>
+            <span>Tailwind CSS</span>
+            <span>Vercel</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Live ↗</a>
+            <a href="#" class="project-link project-link--ghost">Code ↗</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">02</div>
+          <div class="project-top">
+            <h3 class="project-title">Personal Portfolio</h3>
+            <span class="project-badge">Web</span>
+          </div>
+          <p class="project-tagline">Responsive Portfolio Website</p>
+          <p class="project-desc">A mobile-responsive portfolio featuring smooth scrolling, CSS animations, and version-controlled deployment via GitHub Pages. Showcases projects, certifications, and technical achievements.</p>
+          <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>GitHub Pages</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Live ↗</a>
+            <a href="#" class="project-link project-link--ghost">Code ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-label">04 — Experience</div>
+      <h2 class="section-title">Experience &amp; Certs</h2>
+      <div class="exp-grid">
+
+        <div class="exp-col">
+          <h3 class="exp-col-title">Internship</h3>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-period">Jun – Jul 2025</div>
+              <div class="timeline-role">IoT Research Intern</div>
+              <div class="timeline-org">NIT Warangal — Dept. of CSE</div>
+              <p class="timeline-desc">Researched an IoT-based Smart Waste Management System. Studied IoT architecture, sensor integration, and data analytics pipelines for smart city solutions. Utilized Python for data visualization.</p>
+              <a href="#" class="timeline-link">View Certificate ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-col">
+          <h3 class="exp-col-title">Certifications</h3>
+          <div class="cert-list">
+            <div class="cert-item">
+              <div class="cert-dot cert-dot--oracle"></div>
+              <div>
+                <div class="cert-name">Oracle Cloud &amp; Data Foundations</div>
+                <div class="cert-meta">Oracle University · Aug–Sep 2025 · 4 Certs</div>
+              </div>
+            </div>
+            <div class="cert-item">
+              <div class="cert-dot cert-dot--aws"></div>
+              <div>
+                <div class="cert-name">AWS Solutions Architecture</div>
+                <div class="cert-meta">Forage · Aug 2025</div>
+              </div>
+            </div>
+            <div class="cert-item">
+              <div class="cert-dot cert-dot--jpm"></div>
+              <div>
+                <div class="cert-name">JPMorgan Quant Research</div>
+                <div class="cert-meta">Forage · Aug 2025</div>
+              </div>
+            </div>
+            <div class="cert-item">
+              <div class="cert-dot cert-dot--del"></div>
+              <div>
+                <div class="cert-name">Deloitte Technology + Data Analytics</div>
+                <div class="cert-meta">Forage · Oct 2025</div>
+              </div>
+            </div>
+            <div class="cert-item">
+              <div class="cert-dot cert-dot--gen"></div>
+              <div>
+                <div class="cert-name">GenAI Data Analytics</div>
+                <div class="cert-meta">Forage · Oct 2025</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="workshops">
+        <h3 class="exp-col-title">Workshops &amp; Hackathons</h3>
+        <div class="workshop-chips">
+          <div class="workshop-chip">Data Analytics Industrial Visit <span>Oct 2024</span></div>
+          <div class="workshop-chip">Generative AI Workshop <span>Feb 2025</span></div>
+          <div class="workshop-chip">IoT Workshop — DUCAT <span>Apr 2025</span></div>
+          <div class="workshop-chip">Adobe Designathon — IIT Delhi Tryst <span>Mar 2025</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coursework -->
+  <section class="coursework section" id="coursework">
+    <div class="container">
+      <div class="section-label">05 — Academics</div>
+      <h2 class="section-title">Relevant Coursework</h2>
+      <div class="course-grid">
+        <div class="course-card"><span>DSA</span> Data Structures &amp; Algorithms</div>
+        <div class="course-card"><span>DBMS</span> Database Management</div>
+        <div class="course-card"><span>OS</span> Operating Systems</div>
+        <div class="course-card"><span>OOP</span> Object Oriented Programming</div>
+        <div class="course-card"><span>CN</span> Computer Networks</div>
+        <div class="course-card"><span>AI</span> Artificial Intelligence</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label">06 — Contact</div>
+      <div class="contact-inner">
+        <h2 class="contact-heading">Let's Work <br><em>Together</em></h2>
+        <p class="contact-sub">I'm actively seeking software / web development internship opportunities. Whether you have a project in mind or just want to connect — my inbox is always open.</p>
+        <a href="mailto:yashrairajput@gmail.com" class="contact-btn">Say Hello ↗</a>
+        <div class="contact-links">
+          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+          <a href="https://github.com" target="_blank">GitHub</a>
+          <a href="tel:+917827047824">+91 78270 47824</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">YG</div>
+      <div class="footer-text">Yash Grade © 2025 — Built with HTML, CSS &amp; JS</div>
+      <div class="footer-right">New Delhi, India</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
